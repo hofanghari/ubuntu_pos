@@ -20,7 +20,10 @@ def change_hostname():
     file_hosts_open.seek(0)
     file_hosts_open.write(file_hosts)
     file_hosts_open.close()
+    return CN
 
+
+def wite_info(CN)
     file_info = open('/etc/pos/info', 'w')
     file_info.write(CN + '\n')
     file_info.seek(1)
